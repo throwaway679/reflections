@@ -1,0 +1,57 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    Fill in your answer here
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+With access to the history of a file, I can fully understand why code was 
+written the way it was and why changes were made.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+Pros:
+1. Commits are single-issue. Rather than having multiple issues fixed or parts of
+a single issue fixed in one commit, they are more relevant.
+2. We get to decide how important a change or edit is, and only commit it if it 
+passes muster.
+
+Cons:
+1. Sometimes we could forget to commit, resulting in lost work if there is a crash.
+
+
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+Version control systems that are created to manage large code-bases are better 
+served with the ability to save multiple files per commit.
+Others like G Docs are more often used for single standalone documents, so multiple
+file versioning is unnecessary for most use-cases.
+
+
+
+
+How can you use the commands git log and git diff to view the history of files?
+
+Git log shows a chronologically ordered history of commits made to a repository.
+Each commit has a commit number. One can use the command git diff to compare two
+different commits and view the differences between them.
+
+
+
+How might using version control make you more confident to make changes that
+could break something?
+
+I'd be more confidant knowing that if I make a mistake that breaks something,
+git will allow me to identify the change that caused the break, and revert to
+the state before that break if necessary.
+
+
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+Developing apps
