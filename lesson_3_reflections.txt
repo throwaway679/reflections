@@ -19,3 +19,19 @@ instead of another?
 Branches are versions of a codebase distinct from the "main" (master) code. A clone is a 
 duplication or copy of a repository. Forks are a Github feature that allows one to clone 
 a repository directly on Github.
+
+
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+It allows one to compare the state of the local against the remote without an internet 
+connection.
+
+
+
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+I'd host code in a directory online and share it over FTP, using a chat tool to discuss updates.
+It'd be much harder to collaborate this way without the ability to properly version files and revert to
+old versions easily.
