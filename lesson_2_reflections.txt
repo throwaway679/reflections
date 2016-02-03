@@ -13,3 +13,46 @@ It holds files that are ready to be committed to the repository. It allows one
 to gather a collection of edits/changes before committing them all together in
 one batch to the repo.
 
+
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+
+
+
+What are some situations when branches would be helpful in keeping your history organized? 
+How would branches help?
+
+Branches are great when you want to develop new features that drastically change the way 
+your application works. They allow you to experiment without the fear of breaking 
+your main codebase.
+
+
+
+How do the diagrams help you visualize the branch structure?
+
+The diagrams help provide an overview of the entire repository, showing where on the “tree” branches emaninate from and relate to.
+
+
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+Merging two branches together allows us to combine changes made in both branches since the branches originally split off from a common ancestor.
+
+
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Automatic merging
+Pros:
+1. It’s faster and more efficient
+
+Cons: 
+1. It doesn’t work when there are conflicts
+
+Manual merging
+Pros:
+1. Doing it manually means we can analyse changes and make sure that nothing breaks.
+
+Cons:
+1. It’s time consuming and inefficient.
