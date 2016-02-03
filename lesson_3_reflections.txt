@@ -35,3 +35,14 @@ How would you collaborate without using Git or GitHub? What would be easier, and
 I'd host code in a directory online and share it over FTP, using a chat tool to discuss updates.
 It'd be much harder to collaborate this way without the ability to properly version files and revert to
 old versions easily.
+
+
+
+
+
+When would you want to make changes in a separate branch rather than directly in master? 
+What benefits does each approach have?
+
+When working on major features, and when collaborating with others.
+Working on branches reduces the risk of breaking production code, but it involves more 
+hoop-jumping. On the other hand, working on master is fast and easy, but comes with risk.
